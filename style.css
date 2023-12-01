@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+#cabeza {
+    width: 95vw;
+    margin:5px auto;
+    position: relative;
+    
+}
+
+.banner{
+    position:absolute;
+    color: grey;
+    font-size: calc(2rem + 3vw);
+    font-family: 'Times New Roman', Times, serif;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+
+#cuerpo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+
+#hijo {
+    justify-items: center;
+    max-width: 60vb;
+    
+}
+
+figcaption, p{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1vp;
+}
+
+h2{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    font-size: calc(1rem = 3vw);
+}
+
+/*============================================
+                     200px
+  ============================================  */
+@media screen and (min-width:200px) {
+    h2 {
+        background: yellow;
+        
+    }
+}/*200px*/
+
+/*============================================
+                     880px   
+  ============================================  */
+@media screen and (min-width:880px) {
+     h2 {
+        background: orange;
+      }
+}/*880px*/
+
+/*============================================
+                    1320px
+  ============================================  */
+@media screen and (min-width:1320px) {
+     h2 {
+        background: red;
+     }
+}/*1320px*/
